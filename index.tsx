@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 import Hero from "./Hero";
 import Manifesto from "./Manifesto";
 import Tactics from "./Tactics";
@@ -16,4 +18,4 @@ function App() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")!).render(<App />);
